@@ -71,6 +71,14 @@ This project is proudly supported by:
     </tr>
     <tr>
       <td>
+        <a href="https://www.shadcnblocks.com?utm_source=react-wheel-picker">
+          <img
+            src="https://assets.chanhdai.com/images/sponsors/shadcnblocks.svg?v=1"
+            alt="Shadcnblocks"
+          />
+        </a>
+      </td>
+      <td>
         <a href="https://reactbits.dev?utm_source=react-wheel-picker">
           <img
             src="https://assets.chanhdai.com/images/sponsors/reactbits.svg?v=1"
@@ -78,6 +86,8 @@ This project is proudly supported by:
           />
         </a>
       </td>
+    </tr>
+    <tr>
       <td>
         <a href="https://www.mintlify.com?utm_source=react-wheel-picker">
           <img
@@ -86,8 +96,6 @@ This project is proudly supported by:
           />
         </a>
       </td>
-    </tr>
-    <tr>
       <td>
         <a href="https://openpanel.dev?utm_source=react-wheel-picker">
           <img
@@ -96,6 +104,8 @@ This project is proudly supported by:
           />
         </a>
       </td>
+    </tr>
+    <tr>
       <td>
         <a href="https://termius.com?utm_source=react-wheel-picker">
           <img
@@ -104,6 +114,7 @@ This project is proudly supported by:
           />
         </a>
       </td>
+      <td></td>
     </tr>
   </tbody>
 </table>
