@@ -26,7 +26,7 @@ This project is proudly supported by:
 <table>
   <tbody>
     <tr>
-      <td>
+      <td colspan="2" align="center">
         <a href="https://vercel.com/blog/summer-2025-oss-program?utm_source=react-wheel-picker">
           <img
             src="https://assets.chanhdai.com/images/sponsors/vercel-oss-program-2025.svg?v=2"
@@ -34,7 +34,6 @@ This project is proudly supported by:
           />
         </a>
       </td>
-      <td></td>
     </tr>
     <tr>
       <td>
@@ -61,6 +60,24 @@ This project is proudly supported by:
         </a>
       </td>
       <td>
+        <a href="https://www.shadcnblocks.com?utm_source=react-wheel-picker">
+          <img
+            src="https://assets.chanhdai.com/images/sponsors/shadcnblocks.svg?v=1"
+            alt="Shadcnblocks"
+          />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://reactbits.dev?utm_source=react-wheel-picker">
+          <img
+            src="https://assets.chanhdai.com/images/sponsors/reactbits.svg?v=1"
+            alt="React Bits"
+          />
+        </a>
+      </td>
+      <td>
         <a href="https://uirules.com?utm_source=react-wheel-picker">
           <img
             src="https://assets.chanhdai.com/images/sponsors/uirules.svg?v=1"
@@ -71,23 +88,13 @@ This project is proudly supported by:
     </tr>
     <tr>
       <td>
-        <a href="https://www.shadcnblocks.com?utm_source=react-wheel-picker">
+        <a href="https://openpanel.dev?utm_source=react-wheel-picker">
           <img
-            src="https://assets.chanhdai.com/images/sponsors/shadcnblocks.svg?v=1"
-            alt="Shadcnblocks"
+            src="https://assets.chanhdai.com/images/sponsors/openpanel.svg?v=1"
+            alt="OpenPanel"
           />
         </a>
       </td>
-      <td>
-        <a href="https://reactbits.dev?utm_source=react-wheel-picker">
-          <img
-            src="https://assets.chanhdai.com/images/sponsors/reactbits.svg?v=1"
-            alt="React Bits"
-          />
-        </a>
-      </td>
-    </tr>
-    <tr>
       <td>
         <a href="https://www.mintlify.com?utm_source=react-wheel-picker">
           <img
@@ -96,25 +103,6 @@ This project is proudly supported by:
           />
         </a>
       </td>
-      <td>
-        <a href="https://openpanel.dev?utm_source=react-wheel-picker">
-          <img
-            src="https://assets.chanhdai.com/images/sponsors/openpanel.svg?v=1"
-            alt="OpenPanel"
-          />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://termius.com?utm_source=react-wheel-picker">
-          <img
-            src="https://assets.chanhdai.com/images/sponsors/termius.svg?v=3"
-            alt="Termius"
-          />
-        </a>
-      </td>
-      <td></td>
     </tr>
   </tbody>
 </table>
