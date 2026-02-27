@@ -204,24 +204,26 @@ export default function Home() {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {ORGANIZATIONAL_SPONSORS.map((sponsor) => {
-            const SponsorLogo = sponsor.logo;
+          {ORGANIZATIONAL_SPONSORS.filter((sponsor) => sponsor.featured).map(
+            (sponsor) => {
+              const SponsorLogo = sponsor.logo;
 
-            return (
-              <a
-                key={sponsor.name}
-                className="flex items-center justify-center rounded-md border shadow-xs transition-colors hover:bg-accent/30"
-                href={sponsor.url}
-                target="_blank"
-                rel="noopener sponsored"
-              >
-                <SponsorLogo
-                  className="w-full max-w-80"
-                  aria-label={`${sponsor.name} logo`}
-                />
-              </a>
-            );
-          })}
+              return (
+                <a
+                  key={sponsor.name}
+                  className="flex items-center justify-center rounded-md border shadow-xs transition-colors hover:bg-accent/30"
+                  href={sponsor.url}
+                  target="_blank"
+                  rel="noopener sponsored"
+                >
+                  <SponsorLogo
+                    className="w-full max-w-80"
+                    aria-label={`${sponsor.name} logo`}
+                  />
+                </a>
+              );
+            },
+          )}
         </div>
       </div>
     </div>
