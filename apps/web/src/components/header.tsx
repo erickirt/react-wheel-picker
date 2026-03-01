@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-import { SOURCE_CODE_GITHUB_URL } from "@/config/site";
+import { NAV_ITEMS, SOURCE_CODE_GITHUB_URL } from "@/config/site";
 
 import { BrandContextMenu } from "./brand-context-menu";
 import { DesktopNav } from "./desktop-nav";
 import { Mark } from "./mark";
-import { MobileNav } from "./mobile-nav";
+import { MobileNavV2 } from "./mobile-nav-v2";
 import { StarsCount } from "./stars-count";
 import { ToggleTheme } from "./toggle-theme";
 import { Button } from "./ui/button";
@@ -127,11 +127,11 @@ export function Header() {
 
           <ToggleTheme />
 
-          <MobileNav />
+          <MobileNavV2 items={NAV_ITEMS} />
         </div>
 
-        <div className="absolute right-[-4.5px] bottom-[-4.5px] flex size-2 rounded-[2px] border border-zinc-300 bg-popover dark:border-border" />
-        <div className="absolute bottom-[-4.5px] left-[-4.5px] flex size-2 rounded-[2px] border border-zinc-300 bg-popover dark:border-border" />
+        <div className="absolute right-[-4.5px] bottom-[-3.5px] flex size-2 rounded-[2px] border border-zinc-300 bg-popover dark:border-border" />
+        <div className="absolute bottom-[-3.5px] left-[-4.5px] flex size-2 rounded-[2px] border border-zinc-300 bg-popover dark:border-border" />
       </div>
     </header>
   );
