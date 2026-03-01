@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
@@ -10,11 +8,10 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { NAV_ITEMS } from "@/config/site";
-import { haptic } from "@/lib/haptic";
 
 export function MobileNav() {
   return (
-    <DropdownMenu onOpenChange={() => haptic()}>
+    <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
