@@ -14,13 +14,12 @@ import { haptic } from "@/lib/haptic";
 
 export function MobileNav() {
   return (
-    <DropdownMenu>
+    <DropdownMenu onOpenChange={() => haptic()}>
       <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
-          className="group/toggle flex size-8 flex-col gap-1 sm:hidden"
+          className="group/toggle flex size-8 touch-manipulation flex-col gap-1 sm:hidden"
           size="icon"
-          onClick={() => haptic()}
         >
           <span className="flex h-0.5 w-4 transform rounded-[1px] bg-foreground transition-transform group-data-[state=open]/toggle:translate-y-[3px] group-data-[state=open]/toggle:rotate-45" />
           <span className="flex h-0.5 w-4 transform rounded-[1px] bg-foreground transition-transform group-data-[state=open]/toggle:translate-y-[-3px] group-data-[state=open]/toggle:-rotate-45" />
