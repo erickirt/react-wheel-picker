@@ -7,8 +7,6 @@ import {
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-import { ConsentManagerClient } from "./consent-manager-client";
-
 export function ConsentManager({ children }: { children: React.ReactNode }) {
   return (
     <ConsentManagerProvider
@@ -24,7 +22,7 @@ export function ConsentManager({ children }: { children: React.ReactNode }) {
             noStyle: true,
             className: cn(
               "relative w-full max-w-(--banner-max-width) divide-y overflow-hidden rounded-2xl",
-              "bg-popover text-popover-foreground shadow-popover ring ring-popover-border",
+              "bg-popover text-popover-foreground shadow-lg ring-1 ring-foreground/10 dark:ring-foreground/15",
             ),
           },
           "banner.header.title": {
@@ -70,15 +68,18 @@ export function ConsentManager({ children }: { children: React.ReactNode }) {
               "--dialog-border-color-dark": "var(--border)",
             },
             className:
-              "rounded-2xl border-none bg-background shadow-popover ring ring-popover-border",
+              "rounded-2xl border-none bg-background ring-1 ring-foreground/10 dark:ring-foreground/15",
           },
           "dialog.overlay": {
-            className:
-              "[--dialog-overlay-background-color-dark:var(--color-black)]/50",
+            style: {
+              "--dialog-overlay-background-color": "lab(0% 0 0 / 0.2)",
+              "--dialog-overlay-background-color-dark": "lab(0% 0 0 / 0.7)",
+            },
           },
           "dialog.title": {
             noStyle: true,
-            className: "text-lg leading-none font-semibold text-foreground",
+            className:
+              "text-lg leading-none font-semibold text-foreground tracking-tight",
           },
           "dialog.description": {
             noStyle: true,
@@ -129,7 +130,7 @@ export function ConsentManager({ children }: { children: React.ReactNode }) {
             noStyle: true,
             className: cn(
               "inline-flex h-4.5 w-8 shrink-0 items-center rounded-full transition-all",
-              "border border-transparent shadow-xs",
+              "border border-transparent",
               "outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50",
               "disabled:cursor-not-allowed disabled:opacity-50",
               "data-[state=checked]:bg-primary data-[state=unchecked]:bg-input dark:data-[state=unchecked]:bg-input/80",
@@ -164,7 +165,7 @@ export function ConsentManager({ children }: { children: React.ReactNode }) {
         }}
       />
 
-      <ConsentManagerClient>{children}</ConsentManagerClient>
+      {children}
     </ConsentManagerProvider>
   );
 }
