@@ -1,4 +1,8 @@
-# [React Wheel Picker](https://react-wheel-picker.chanhdai.com)
+<!-- # [React Wheel Picker](https://react-wheel-picker.chanhdai.com) -->
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/grid.svg?title=iOS-like+Wheel+Picker+for+React&amp;subtitle=Smooth+inertia+scrolling+and+infinite+loop+support.&amp;logo=ri%3APiMouseScrollFill&amp;size=wide&amp;mode=dark&amp;theme=zinc&amp;font=geist" /><img alt="header" src="https://shieldcn.dev/header/grid.svg?title=iOS-like+Wheel+Picker+for+React&amp;subtitle=Smooth+inertia+scrolling+and+infinite+loop+support.&amp;logo=ri%3APiMouseScrollFill&amp;size=wide&amp;mode=light&amp;theme=zinc&amp;font=geist" /></picture>
+</p>
 
 <p>
   <a href="https://github.com/ncdai/react-wheel-picker"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/github/ncdai/react-wheel-picker/license.svg?variant=outline&amp;font=geist" /><img alt="license" src="https://shieldcn.dev/github/ncdai/react-wheel-picker/license.svg?variant=outline&amp;mode=light&amp;font=geist" /></picture></a>
@@ -17,7 +21,7 @@ iOS-like wheel picker for React with smooth inertia scrolling and infinite loop 
 - Unstyled core for complete style customization.
 - Full keyboard navigation and type-ahead search.
 
-→ Check out the live demo: https://react-wheel-picker.chanhdai.com
+→ Live demo: https://react-wheel-picker.chanhdai.com
 
 <a href="https://react-wheel-picker.chanhdai.com">
   <picture>
