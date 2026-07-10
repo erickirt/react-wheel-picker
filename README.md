@@ -220,9 +220,3 @@ This project is proudly supported by:
 </table>
 
 > Using this package at work? [Sponsor me](https://github.com/sponsors/ncdai) to help with support and maintenance.
-
-## Star history
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/chart/github/stars/ncdai/react-wheel-picker.svg?font=geist&amp;theme=cyan" /><img alt="chart" src="https://shieldcn.dev/chart/github/stars/ncdai/react-wheel-picker.svg?mode=light&amp;font=geist&amp;theme=cyan" /></picture>
-</p>
