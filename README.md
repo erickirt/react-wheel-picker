@@ -73,6 +73,20 @@ This project is proudly supported by:
         </a>
       </td>
       <td>
+        <a href="https://claude.com?utm_source=react-wheel-picker">
+          <picture>
+            <source
+              media="(prefers-color-scheme: dark)"
+              srcset="https://assets.chanhdai.com/images/sponsors/claude-dark.svg"
+            />
+            <img
+              src="https://assets.chanhdai.com/images/sponsors/claude.svg"
+              alt="Claude"
+            />
+          </picture>
+        </a>
+      </td>
+      <td>
         <a href="https://openpanel.dev/open-source?utm_source=react-wheel-picker">
           <picture>
             <source
@@ -86,6 +100,8 @@ This project is proudly supported by:
           </picture>
         </a>
       </td>
+    </tr>
+    <tr>
       <td>
         <a href="https://www.mintlify.com/oss-program?utm_source=react-wheel-picker">
           <picture>
@@ -100,6 +116,8 @@ This project is proudly supported by:
           </picture>
         </a>
       </td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td colspan="3"><strong>Gold Sponsors</strong></td>

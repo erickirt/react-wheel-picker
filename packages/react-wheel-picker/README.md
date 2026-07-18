@@ -4,12 +4,10 @@ Backed by [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-progra
 
 iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support.
 
-- Natural touch scrolling with smooth inertia effect
-- Mouse drag and scroll support for desktop
-- Infinite loop scrolling
-- Unstyled components for complete style customization
-- Full keyboard navigation and type-ahead search
-- Easy installation via shadcn CLI
+- Natural touch scrolling with smooth inertia, mouse drag and scroll for desktop.
+- Infinite loop scrolling.
+- Unstyled core for complete style customization.
+- Full keyboard navigation and type-ahead search.
 
 → Check out the live demo: https://react-wheel-picker.chanhdai.com
 
@@ -46,6 +44,20 @@ This project is proudly supported by:
         </a>
       </td>
       <td>
+        <a href="https://claude.com?utm_source=react-wheel-picker">
+          <picture>
+            <source
+              media="(prefers-color-scheme: dark)"
+              srcset="https://assets.chanhdai.com/images/sponsors/claude-dark.svg"
+            />
+            <img
+              src="https://assets.chanhdai.com/images/sponsors/claude.svg"
+              alt="Claude"
+            />
+          </picture>
+        </a>
+      </td>
+      <td>
         <a href="https://openpanel.dev/open-source?utm_source=react-wheel-picker">
           <picture>
             <source
@@ -59,6 +71,8 @@ This project is proudly supported by:
           </picture>
         </a>
       </td>
+    </tr>
+    <tr>
       <td>
         <a href="https://www.mintlify.com/oss-program?utm_source=react-wheel-picker">
           <picture>
@@ -73,6 +87,8 @@ This project is proudly supported by:
           </picture>
         </a>
       </td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td colspan="3"><strong>Gold Sponsors</strong></td>
