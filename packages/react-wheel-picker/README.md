@@ -91,6 +91,27 @@ This project is proudly supported by:
       <td></td>
     </tr>
     <tr>
+      <td colspan="3"><strong>Platinum Sponsors</strong></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.nixtla.io?utm_source=react-wheel-picker">
+          <picture>
+            <source
+              media="(prefers-color-scheme: dark)"
+              srcset="https://assets.chanhdai.com/images/sponsors/nixtla-dark.svg"
+            />
+            <img
+              src="https://assets.chanhdai.com/images/sponsors/nixtla.svg"
+              alt="Nixtla"
+            />
+          </picture>
+        </a>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td colspan="3"><strong>Gold Sponsors</strong></td>
     </tr>
     <tr>
