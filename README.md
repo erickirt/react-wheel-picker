@@ -12,7 +12,7 @@
   <a href="https://github.com/ncdai/react-wheel-picker"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/views/repo/ncdai/react-wheel-picker.svg?base=8541&amp;variant=outline&amp;font=geist" /><img alt="repo views" src="https://shieldcn.dev/views/repo/ncdai/react-wheel-picker.svg?base=8541&amp;variant=outline&amp;mode=light&amp;font=geist" /></picture></a>
 </p>
 
-Backed by [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker)
+Backed by [▲ Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker)
 
 iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support.
 
